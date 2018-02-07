@@ -35,6 +35,10 @@ section a{
   color: white;
 }
 
+head .encabezado{
+  float: right;
+}
+
 #caja1{
   border: 20px;
   height: auto;
@@ -273,7 +277,7 @@ footer{
   h1 {
     text-align: center;
   }
-  a{
+  {
     text-align: center;
   }
 }
