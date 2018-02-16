@@ -35,7 +35,7 @@ section a{
   color: white;
 }
 
-head .encabezado{
+section .encabezado{
   float: right;
 }
 
@@ -71,7 +71,9 @@ footer{
   padding: 10px;
   margin: auto;
   background-color: #d5c75f;
-
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .centro{
@@ -175,6 +177,45 @@ footer{
   background-color: #C6d5c5;
 }
 
+.terminos p{
+  text-align: left;
+  font-size: 14px
+}
+
+.terminos h1{
+  text-align: center;
+}
+
+.red_social a{
+  color: white;
+  margin-left: 25px;
+  margin-right: auto;
+
+}
+
+.red_social h1{
+  text-align: center;
+}
+
+.contacto p{
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contacto h1{
+  text-align: center;
+}
+
+.derechos p{
+  text-align: center;
+  font-size: 14px;
+}
+
+.derechos h1{
+  text-align: center;
+}
 
 @media (min-width:900px){
   #contenido{
